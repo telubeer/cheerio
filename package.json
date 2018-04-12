@@ -1,5 +1,5 @@
 {
-  "name": "cheerio",
+  "name": "@ncc/cheerio",
   "version": "0.22.0",
   "description": "Tiny, fast, and elegant implementation of core jQuery designed specifically for the server",
   "author": "Matt Mueller <mattmuelle@gmail.com> (mat.io)",
@@ -12,9 +12,12 @@
     "parser",
     "html"
   ],
+  "publishConfig": {
+    "registry": "http://sinopia.app.s"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/cheeriojs/cheerio.git"
+    "url": "git://git@git.rn/~s.shlykov/cheerio.git"
   },
   "main": "./index.js",
   "files": [
@@ -26,7 +29,7 @@
   },
   "dependencies": {
     "css-select": "~1.2.0",
-    "dom-serializer": "~0.1.0",
+    "@ncc/dom-serializer": "~0.1.1",
     "entities": "~1.1.1",
     "htmlparser2": "^3.9.1",
     "lodash.assignin": "^4.0.9",
